@@ -8,7 +8,7 @@ const createExpressServer = async app => {
 	applyEndpoints(server, app);
     
     await app.db.initDB();
-
+	server.set('trust proxy', true);
 	server.get('/', async (req, res) => {
 		if(process.env.NODE_ENV === 'develop'){
 				res.send('Test Enviroment');

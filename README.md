@@ -67,3 +67,7 @@ El presente código despliega un servidor node.js/express sobre el que se busca 
 
 
 Adicionalmente a estos endpoints, se requiere ampliar el paquete `People` con las clases y funciones que sean necesarias para cubrir el caso de que el formato del objeto retornado por la SWAPI sea en idioma Wookiee.
+
+## Comentarios
+
+> Se agrego el paquete Axios, para facilitar las peticiones http, se requiere su instalacion mediante `npm i axios` o solo `npm i`.
